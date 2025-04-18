@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
 
 const App = () => {
   return (
-    <div>App</div>
-  )
-}
+    <>
+      <div className="container">
+        <button className="btn">Click Me</button>
+      </div>
+    </>
+  );
+};
 
-export default App
+export default App;
