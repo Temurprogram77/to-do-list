@@ -1,6 +1,9 @@
 import React from "react";
 
 const App = () => {
+  function clickFunc() {
+    
+  }
   return (
     <>
       <div className="container">
