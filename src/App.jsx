@@ -15,7 +15,7 @@ const App = () => {
       <div className="container">
         <button className="btn" onClick={()=>setModal(!modal)}>Click Me</button>
 
-        {modal ? <div>
+        {modal ? <div className="big-modal">
           <div className="overlay"></div>
           <div className="modal">
             <h2>To Do List</h2>
