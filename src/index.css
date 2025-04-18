@@ -22,3 +22,9 @@ body {
 .btn:hover {
   box-shadow: 0 0 10px #09ff00;
 }
+input {
+  border: none;
+  outline: none;
+  color: #09ff00;
+  background: transparent;
+}
